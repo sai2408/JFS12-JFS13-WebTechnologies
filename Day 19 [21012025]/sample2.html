@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            .parent div{
+                height : 200px;
+                width : 150px;
+                font-size: 100px;
+            }
+            .a1,.a3,.a5,.a7,.a9{
+                background-color: blue;
+            }
+            .a2,.a4,.a6,.a8,.a10{
+                background-color: brown;
+            }
+            .parent{
+                background-color: aqua;
+                height : 1700px;
+                display : grid;
+                grid-template-columns: 150px 150px 150px 150px;
+                /* grid-row-gap : 100px;
+                grid-column-gap : 100px; */
+                grid-gap: 100px 100px;
+                justify-items: center;
+                align-items: center ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="a1"> 1</div>
+            <div class="a2"> 2</div>
+            <div class="a3">3</div>
+            <div class="a4">4</div>
+            <div class="a5">5</div>
+            <div class="a6">6</div>
+            <div class="a7">7</div>
+            <div class="a8">8</div>
+            <div class="a9">9</div>
+            <div class="a10">10</div>
+        </div>
+    </body>
+</html>
