@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Sample</title>
+        <style>
+            .a{
+                text-align: center;;
+                color: blue;
+                padding : 30px;
+                border: solid;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="abc" class="a"></h1>
+        <script>
+            var x = prompt("Enter a value: ");
+            x = parseInt(x);
+            if (x%2==0){
+                document.getElementById("abc").innerHTML = "Even Number Entered....";
+            }
+            else{
+                document.getElementById("abc").innerHTML = "Odd Number Entered....";
+            }
+        </script>
+    </body>
+</html>
