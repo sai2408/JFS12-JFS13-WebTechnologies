@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+            var p1 = /\D/ig
+            var a = prompt("Enter your name: ")
+            if (p1.test(a)){
+                document.write(a);
+            }
+            else{
+                alert("Check the Format");
+            }
+            var p1 = /\d{2}-\d{2}-\d{4}/ig
+            var a = prompt("Enter your DOB: ")
+            if (p1.test(a)){
+                document.write(a);
+            }
+            else{
+                alert("Check the Format");
+            }
+        </script>
+    </body>
+</html>
