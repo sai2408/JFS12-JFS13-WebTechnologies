@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <div id="hello">
+            <p>The sample existing content</p>
+        </div>
+        <button onclick="getdata1()">Click to get data 1</button>
+        <script>
+            function getdata1(){
+                var x = document.createElement("p");
+                x.textContent = "New Data [ Paragraph ]";
+                document.getElementById("hello").appendChild(x);
+            }
+        </script>
+    </body>
+</html>

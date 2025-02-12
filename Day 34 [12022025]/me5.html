@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Mouse Event
+        </title>
+        <style>
+            div{
+                height : 100px;
+                width : 300px;
+                text-align: center;
+                align-content: center;
+                background-color: lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function mousemove(){
+                alert("Cursor on div");
+            }
+        </script>
+        <div onmousemove="mousemove()">
+            cursor on me
+        </div>
+    </body>
+</html>
