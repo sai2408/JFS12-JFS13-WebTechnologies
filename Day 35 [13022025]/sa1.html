@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <script>
+            fetch("https://reqres.in/api/users?page=2")
+            .then((res1)=>{
+                return res1.json();
+            })
+            .then((result)=>{
+                console.log(result);
+            })
+        </script>
+    </body>
+</html>

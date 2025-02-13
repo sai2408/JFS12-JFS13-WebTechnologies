@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+            fetch("https://reqres.in/api/users/2",{
+                method : "DELETE",
+                headers : {
+                    "content-type" : "application/json"
+                }
+            })
+            .then((res)=>{
+                console.log(res);
+            })
+        </script>
+    </body>
+</html>
